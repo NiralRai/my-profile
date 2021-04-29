@@ -1,0 +1,120 @@
+body {
+	background-color: white;
+	color: #264653;
+	font-family: 'Roboto', sans-serif;
+}
+h1,h2 {
+	font-style: 'Playfair Display', serif;
+	font-weight: 500;
+}
+h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    line-height: 75px;
+    color: #6b705c;
+    position: relative;
+    margin-bottom: 40px;
+}
+h2 {
+	font-weight: lighter;
+    font-size: regular;
+    line-height: 75px;
+    color: #457b9d;
+    position: relative;
+    margin-bottom: 15px;
+}
+a {
+	text-decoration: none;
+	color: #cb997e;
+	font-weight:bold;
+}
+a:hover {
+	color: black;
+}
+
+.img-circle{
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 150px
+}
+
+
+div {
+	background: white;
+	padding: 60px;
+	margin: 50px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+	border-radius:4px;
+}
+
+/*custom design with class (99% of your design) */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+/*custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white {
+	background: white;
+	padding: 60px;
+	margin: 20px 0px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+	border-radius:4px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btn-red {
+	background-color: #cb997e;
+	color: white; 
+	padding: 5px 10px;
+	border-radius: 4px;
+}
+.btn-red:hover {
+	background-color: pink;
+	color: black;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 35px;
+}
+.list-inline i:hover {
+	color: black;
+}
+
+/*Design adjustments using id (1% design remaining) */
+#introduction p {
+	margin-bottom: 35px
+}
+
+
+
+
+
+
+
